@@ -21,9 +21,12 @@
       serviceWorkerPath: "OneSignalSDKWorker.js",
       serviceWorkerParam: { scope: "/515/" },
       notifyButton: {
-        enable: true
+        enable: false
       }
     });
+
+    // Automatic prompt
+    OneSignal.Slidedown.promptPush();
   });
 </script>
 
