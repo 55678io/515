@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18372978834"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18372978834');
+</script>
+
+<!-- OneSignal Web SDK -->
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "e22ab8e9-7048-45b2-9034-790b00178f92",
+      notifyButton: {
+        enable: true
+      }
+    });
+  });
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Healthy Living After 60 | Arizona Wellness Guide</title>
+<meta name="description" content="Practical wellness tips for adults over 60 living in Arizona. Stay hydrated, active, and healthy in the desert climate. Get free personalized health tips.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Segoe UI',Arial,Helvetica,sans-serif;background:#f0f7fa;color:#2c3e50;line-height:1.7;}
+a{text-decoration:none;}
+
+/* Header / Hero */
+.hero{
+background:linear-gradient(rgba(13,50,100,0.75),rgba(13,110,253,0.7)),url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+color:#fff;padding:100px 20px 90px;text-align:center;position:relative;
+}
+.hero h1{font-size:48px;font-weight:800;margin-bottom:18px;text-shadow:0 2px 10px rgba(0,0,0,.3);}
+.hero p{font-size:21px;max-width:720px;margin:0 auto 30px;opacity:.95;}
+.hero .btn{
+display:inline-block;padding:16px 40px;background:#ffc107;color:#1a1a1a;font-weight:700;
+border-radius:50px;font-size:18px;transition:all .3s;box-shadow:0 8px 25px rgba(0,0,0,.25);
+}
+.hero .btn:hover{background:#ffca2c;transform:translateY(-3px);box-shadow:0 12px 30px rgba(0,0,0,.3);}
+
+/* Trust bar */
+.trust{background:#fff;padding:18px 20px;text-align:center;border-bottom:1px solid #e1eef5;font-size:15px;color:#555;}
+.trust span{margin:0 15px;display:inline-block;}
+
+/* Container */
+.container{max-width:1140px;margin:0 auto;padding:50px 20px;}
+
+/* Section title */
+.section-title{text-align:center;margin-bottom:45px;}
+.section-title h2{font-size:34px;color:#0d6efd;margin-bottom:12px;}
+.section-title p{color:#666;max-width:600px;margin:0 auto;}
+
+/* Cards */
+.card{
+background:#fff;display:flex;flex-wrap:wrap;margin-bottom:40px;border-radius:18px;
+overflow:hidden;box-shadow:0 10px 30px rgba(13,110,253,.08);transition:transform .3s,box-shadow .3s;
+}
+.card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(13,110,253,.15);}
+.card img{width:380px;height:280px;object-fit:cover;}
+.card .content{flex:1;padding:35px 40px;}
+.card .content h2{color:#0d6efd;font-size:26px;margin-bottom:14px;}
+.card .content p{color:#555;font-size:17px;}
+.card .tag{display:inline-block;background:#e8f4ff;color:#0d6efd;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-bottom:12px;}
+
+/* Tips grid */
+.tips{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;margin:60px 0 40px;}
+.tip{
+background:#fff;padding:30px 25px;border-radius:16px;box-shadow:0 8px 25px rgba(0,0,0,.06);
+text-align:center;transition:all .3s;border-top:4px solid #0d6efd;
+}
+.tip:hover{transform:translateY(-5px);box-shadow:0 15px 35
